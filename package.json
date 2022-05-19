@@ -1,0 +1,26 @@
+{
+  "name": "cloudflare-r2",
+  "version": "0.0.1",
+  "description": "Cloudflare R2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitquant/cloudflare-r2.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "r2"
+  ],
+  "author": "bitquant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitquant/cloudflare-r2/issues"
+  },
+  "homepage": "https://github.com/bitquant/cloudflare-r2#readme",
+  "dependencies": {
+    "amazon-s3": "1.0.1"
+  }
+}
