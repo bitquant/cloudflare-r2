@@ -1,7 +1,8 @@
 var S3 = require('amazon-s3');
 
 function R2(config) {
-    config.domain = `${config.accountId}.r2.cloudflarestorage.com`;
+    config.host = `${config.accountId}.r2.cloudflarestorage.com`;
+    config.pathBucket = true;
     S3.call(this, config);
 }
 
