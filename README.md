@@ -14,14 +14,15 @@ global.fetch = require('node-fetch')
 var r2 = new R2({
     accessKey: '<private accessKey>',
     secretKey: '<private secretKey>',
-    accountId: '<account id>'
+    accountId: '<account id>',
+    region: 'auto'
 });
 
 (async function() {
     try {
 
         let bucket = 'testbucket';
-        let key = '/a/test/file.txt';
+        let key = 'a/test/file.txt';
         let body = 'test file contents';
 
         let putResponse = await r2.putObject({bucket, key, body})
